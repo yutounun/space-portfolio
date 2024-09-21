@@ -1,5 +1,5 @@
-import React from "react";
-import ProjectCard from "../sub/ProjectCard";
+import { Projects_data } from "@/app/constants";
+import ProjectCard from "@/app/components/sub/ProjectCard";
 
 const Projects = () => {
   return (
@@ -11,21 +11,15 @@ const Projects = () => {
         My Projects
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
-        <ProjectCard
-          src="/NextWebsite.png"
-          title="Modern Next.js Portfolio"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        />
-        <ProjectCard
-          src="/CardImage.png"
-          title="Interactive Website Cards"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        />
-        <ProjectCard
-          src="/SpaceWebsite.png"
-          title="Space Themed Website"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        />
+        {Projects_data.map((project) => (
+          <ProjectCard
+            key={project.title}
+            src={project.src}
+            title={project.title}
+            description={project.description}
+            link={project.link}
+          />
+        ))}
       </div>
     </div>
   );

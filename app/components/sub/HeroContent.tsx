@@ -30,12 +30,11 @@ function HeroContent() {
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            Providing
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              {" "}
-              the best{" "}
-            </span>
-            project experience
+              Yuto Ichihara
+            </span>{" "}
+            <br />
+            Fullstack Engineer
           </span>
         </motion.div>
 
@@ -43,15 +42,17 @@ function HeroContent() {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a FullStack Developer with 4+ years of experience in website
-          and web service development. Check out my projects and skills.
+          I am Yuto, a skilled Web developer with a strong focus on Frontend
+          development, while also having expertise in Backend. With over 4 years
+          of experience, I have worked on a variety of projects, from e-commerce
+          websites to AI chatbots. Take a look at my projects and skills!
         </motion.p>
 
         <motion.p
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          Learn More!
+          <a href="#skills">Learn More!</a>
         </motion.p>
       </div>
 

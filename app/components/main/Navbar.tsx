@@ -1,6 +1,6 @@
-import { Socials } from "@/app/constants";
 import Image from "next/image";
 import React from "react";
+import { RxGithubLogo } from "react-icons/rx";
 
 const Navbar = () => {
   return (
@@ -38,15 +38,11 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-row gap-5">
-          {Socials.map((social) => (
-            <Image
-              src={social.src}
-              alt={social.name}
-              key={social.name}
-              width={24}
-              height={24}
-            />
-          ))}
+          ss
+          <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            <RxGithubLogo />
+            <span className="text-[15px] ml-[6px]">Github</span>
+          </p>
         </div>
       </div>
     </div>

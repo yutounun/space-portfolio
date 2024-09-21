@@ -81,16 +81,12 @@ export const Skill_data = [
 
 export const Socials = [
   {
-    name: "Discord",
+    name: "Instagram",
     src: "/instagram.svg",
   },
   {
     name: "Facebook",
     src: "/facebook.svg",
-  },
-  {
-    name: "Instagram",
-    src: "/discord.svg",
   },
 ];
 
@@ -317,3 +313,27 @@ export const Full_stack = [
 ];
 
 export const Other_skill = [];
+
+export const Projects_data = [
+  {
+    title: "Coffices",
+    description:
+      "Coffices.co is a service dedicated to helping you find cafés perfect for getting work done.We’ll be expanding to cover Vancouver soon!",
+    src: "/coffices.png",
+    link: "https://coffices-co.vercel.app/",
+  },
+  {
+    title: "Workflow App",
+    description:
+      "I used Figma and Webflow to manage both UI/UX design and implementation, delivering a smooth process from concept to final product.",
+    src: "/webflow-portfolio.png",
+    link: "https://yutoun.webflow.io/",
+  },
+  {
+    title: "Next Website3",
+    description:
+      "I built this portfolio site using Next.js, Framer Motion, and Three.js. The animations and 3D effects are pretty cool, right?",
+    src: "/portfolio.png",
+    link: "https://andrew-ichihara.vercel.app/",
+  },
+];
