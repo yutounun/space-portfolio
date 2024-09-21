@@ -16,4 +16,4 @@ This website highlights my experience, projects, and skills in web development, 
 
 ## Website
 
-Check out the live site: [andrew-ichihara.vercel.app](https://andrew-ichihara.vercel.app/)
+Check out the live site: [andrew-ichihara](https://andrew-ichihara.vercel.app/)
