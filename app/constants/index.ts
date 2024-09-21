@@ -326,7 +326,7 @@ export const Projects_data = [
     title: "Workflow App",
     description:
       "I used Figma and Webflow to manage both UI/UX design and implementation, delivering a smooth process from concept to final product.",
-    src: "/webflow-portfolio.png",
+    src: "/webflow-portfoliosite.png",
     link: "https://yutoun.webflow.io/",
   },
   {

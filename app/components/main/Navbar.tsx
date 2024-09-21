@@ -13,7 +13,7 @@ const Navbar = () => {
             alt="logo"
             width={50}
             height={50}
-            className="cursor-pointer hover:animate-slowspin"
+            className="cursor-pointer hover:animate-slowspin hidden md:block"
           />
 
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
