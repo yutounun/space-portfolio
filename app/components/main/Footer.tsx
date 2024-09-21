@@ -35,7 +35,7 @@ const Footer = () => {
               <span className="text-[15px] ml-[6px]">Twitter</span>
             </p>
           </div> */}
-          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
+          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start md:my-0 my-20">
             <div className="font-bold text-[16px]">About</div>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <span className="text-[15px] ml-[6px]">
