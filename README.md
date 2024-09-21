@@ -1,9 +1,19 @@
+# Andrew Ichihara's Portfolio
+
+Welcome to my portfolio website showcasing my journey as a software developer.
+
 ## About
 
-This is the portfolio website about my journey as a software developer.
+This website highlights my experience, projects, and skills in web development, as well as my passion for crafting responsive, user-friendly applications.
 
 ## Skills
 
-```bash
-Next14, TailwindCSS, ThreeJS, Fiber, Framer Motion
-```
+- Next.js 14
+- TailwindCSS
+- Three.js
+- Fiber
+- Framer Motion
+
+## Website
+
+Check out the live site: [andrew-ichihara.vercel.app](https://andrew-ichihara.vercel.app/)
