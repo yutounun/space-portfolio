@@ -45,6 +45,22 @@ const Footer = () => {
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <span className="text-[15px] ml-[6px]">geek.yuto@gmail.com</span>
             </p>
+            <Link
+              href="https://docs.google.com/document/d/1xhEG11q_Up7wxHzwTpavkERgkRyAQp3pcHVgJm1s0vY/edit?usp=sharing"
+              className="flex flex-row items-center my-[15px] cursor-pointer z-40"
+            >
+              <span className="text-[15px] ml-[6px]">
+                frontend developer Resume
+              </span>
+            </Link>
+            <Link
+              href="https://docs.google.com/document/d/1lc4C0wmIL6yxHdORQzHE6e8x5Rt5XyaMHY06kSFzGgc/edit?usp=sharing"
+              className="flex flex-row items-center my-[15px] cursor-pointer z-40"
+            >
+              <span className="text-[15px] ml-[6px]">
+                fullstack developer Resume
+              </span>
+            </Link>
           </div>
         </div>
       </div>
