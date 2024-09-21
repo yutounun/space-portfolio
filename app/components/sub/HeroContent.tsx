@@ -31,7 +31,7 @@ function HeroContent() {
         >
           <span>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              Yuto Ichihara
+              Andrrew Ichihara
             </span>{" "}
             <br />
             Fullstack Engineer
@@ -42,7 +42,7 @@ function HeroContent() {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I am Yuto, a skilled Web developer with a strong focus on Frontend
+          I am Andrew, a skilled Web developer with a strong focus on Frontend
           development, while also having expertise in Backend. With over 4 years
           of experience, I have worked on a variety of projects, from e-commerce
           websites to AI chatbots. Take a look at my projects and skills!
