@@ -314,6 +314,57 @@ export const Full_stack = [
 
 export const Other_skill = [];
 
+export const skill_on_mobile = [
+  {
+    skill_name: "Type Script",
+    Image: "/ts.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "React",
+    Image: "/react.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Vue",
+    Image: "/vue.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Tailwind Css",
+    Image: "/tailwind.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Python",
+    Image: "/python.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Node js",
+    Image: "/node-js.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Figma",
+    Image: "/figma.png",
+    width: 50,
+    height: 50,
+  },
+  {
+    skill_name: "AWS",
+    Image: "/aws.png",
+    width: 70,
+    height: 70,
+  },
+];
+
 export const Projects_data = [
   {
     title: "Coffices",
@@ -335,5 +386,59 @@ export const Projects_data = [
       "I built this portfolio site using Next.js, Framer Motion, and Three.js. The animations and 3D effects are pretty cool, right?",
     src: "/portfolio.png",
     link: "https://andrew-ichihara.vercel.app/",
+  },
+];
+
+export const career = [
+  {
+    title: "LE GOÛTER in Vancouver - Ecommerce Web developer",
+    year: "2024.09 -",
+    description: [
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae voluptatem sunt sed quidem eius minima vel ducimus et rem qui sequi non optio doloribus quo iste, quia, ipsum corporis necessitatibus.",
+    ],
+    srcImg: "/css.png",
+  },
+  {
+    title: "Acall.inc - Freelance frontend developer",
+    year: "2024.04 - 2024.08",
+    description: [
+      "- Delivered the front-end for an AI chatbot managing meeting room reservations, improving user engagement and satisfaction by enhancing the UX based on direct feedback from product managers and designers.",
+      "- Increased team efficiency by adding JSDoc comments, promoting team-wide adoption, and fostering code clarity.",
+      "- Resolved critical frontend issues through code reviews, reducing ensuring the timely delivery of high-quality features.",
+      "Tech: TypeScript, Vue, Nuxt.js, HTML, CSS, Vuetify, Sass, GraphQL, Apollo, CI/CD, Github, Figma, Agile",
+    ],
+    srcImg: "/python.png",
+  },
+  {
+    title: "Iret.inc - Frontend, Fullstack Engineer / Project Manager",
+    year: "2022.08 - 2024.03",
+    description: [
+      "- Led frontend development for large-scale enterprise systems, often making the fundamental decisions. Collaborated closely with designers and infrastructure teams using TypeScript, React, and Vue to ensure project success.",
+      "- Took the initiative to self-learn technologies like TailwindCSS, React, Jest, and MongoDB when needed for the project, sharing knowledge with the team and ensuring smooth project progress.",
+      "- Managed a team of 4 developers, overseeing project management and code reviews while coordinating with clients.",
+      "- Spearheaded the migration of a web app from Vue2 to Vue3, providing regular progress updates to reassure the client. ",
+      "Tech: React, TypeScript, Tailwind, MongoDB, Python, Jest, DynamoDB, Vue, AWS, Vuetify, LangChain, Nuxt, Agile",
+    ],
+    srcImg: "/firebase.png",
+  },
+  {
+    title: "Arara.inc - Software Engineer",
+    year: "2020.07 - 2022.07",
+    description: [
+      "- Developed front-end UI features, issues with JavaScript, Vue2 and Vuetify with designers and other developers.",
+      "- Automated testing for a payment card API, initially leveraging PostMan, then transitioning to Shell Script to eliminate environmental discrepancies, achieving a 99% reduction in testing time.",
+      "Tech: AWS Services, TypeScript, Vue, Vuetify, Shell Script, Python, Django, DynamoDB, PostgreSQL",
+    ],
+    srcImg: "/go.png",
+  },
+
+  {
+    title: "RuDoLf Inc. - CMS Developer",
+    year: "Apr 2020 - Jun 2020",
+    description: [
+      "- Implemented customer websites using WordPress, focusing on SEO optimization and custom plugin development to enhance functionality and user experience. (https://knowledgeco.jp/home/happy-eng/)",
+      "Tech: CMS, Wordpress, PHP, LAMP",
+    ],
+    srcImg: "/fastapi.png",
   },
 ];
