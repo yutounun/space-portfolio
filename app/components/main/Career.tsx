@@ -32,7 +32,7 @@ const Career = () => {
             key={c.title}
             initial="hidden"
             animate={inView ? "visible" : "hidden"}
-            variants={slideInFromLeft(2 + idx * 0.5)}
+            variants={slideInFromLeft(0.5 + idx * 0.5)}
             transition={{ delay: idx * 0.5 }}
             className="flex flex-col md:flex-row gap-10 justify-center"
           >

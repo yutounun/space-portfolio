@@ -374,11 +374,18 @@ export const Projects_data = [
     link: "https://coffices-co.vercel.app/",
   },
   {
-    title: "Workflow App",
+    title: "LE GOÛTER - ecommerce with Square",
     description:
-      "I used Figma and Webflow to manage both UI/UX design and implementation, delivering a smooth process from concept to final product.",
-    src: "/webflow-portfoliosite.png",
-    link: "https://yutoun.webflow.io/",
+      "Developed an e-commerce site for a bakery using Square, collaborating on research, requirements, and design. - Enhanced client satisfaction by creating detailed Notion guides, enabling them to manage product updates independently.",
+    src: "/ecommerce.png",
+    link: "https://le-goter-109155.square.site//",
+  },
+  {
+    title: "Micro CMS Blog",
+    description:
+      "a high-performance blog site built using microCMS, a headless CMS, Shadcn UI, and Next.js with SSG (Static Site Generation).",
+    src: "/headless-cms.png",
+    link: "https://andreww-blog.vercel.app/",
   },
   {
     title: "Next Website3",
@@ -394,7 +401,7 @@ export const career = [
     title: "LE GOÛTER in Vancouver - Ecommerce Web developer",
     year: "2024.09 -",
     description: [
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae voluptatem sunt sed quidem eius minima vel ducimus et rem qui sequi non optio doloribus quo iste, quia, ipsum corporis necessitatibus.",
+      "- Developed an e-commerce site for a bakery using Square, collaborating on research, requirements, and design. Enhanced client satisfaction by creating detailed Notion guides, enabling them to manage product updates independently.",
     ],
     srcImg: "/css.png",
   },
