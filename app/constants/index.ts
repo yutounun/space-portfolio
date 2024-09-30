@@ -378,7 +378,7 @@ export const Projects_data = [
     description:
       "Developed an e-commerce site for a bakery using Square, collaborating on research, requirements, and design. - Enhanced client satisfaction by creating detailed Notion guides, enabling them to manage product updates independently.",
     src: "/ecommerce.png",
-    link: "https://le-goter-109155.square.site//",
+    link: "https://le-goter-109155.square.site/home",
   },
   {
     title: "Micro CMS Blog",
@@ -426,7 +426,7 @@ export const career = [
       "- Spearheaded the migration of a web app from Vue2 to Vue3, providing regular progress updates to reassure the client. ",
       "Tech: React, TypeScript, Tailwind, MongoDB, Python, Jest, DynamoDB, Vue, AWS, Vuetify, LangChain, Nuxt, Agile",
     ],
-    srcImg: "/firebase.png",
+    srcImg: "/reactquery.png",
   },
   {
     title: "Arara.inc - Software Engineer",
