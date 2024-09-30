@@ -12,12 +12,12 @@ function HeroContent() {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-12 mt-40 w-full z-[20]"
+      className="flex flex-row items-center justify-center px-8 md:px-12 mt-40 w-full z-[20]"
     >
-      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
+      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-center md:text-start">
         <motion.div
           variants={slideInFromTop}
-          className="Welcome-box py-[8px] px-[20px] border border-[#7042f88b] opacity-[0.9]"
+          className="hidden md:flex Welcome-box py-[8px] px-[20px] border border-[#7042f88b] opacity-[0.9]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
@@ -34,7 +34,9 @@ function HeroContent() {
               Andrew Ichihara
             </span>{" "}
             <br />
-            Fullstack Engineer
+            <span className="text-[1.7rem] md:text-[2.5rem]">
+              Fullstack Engineer
+            </span>
           </span>
         </motion.div>
 
@@ -48,17 +50,17 @@ function HeroContent() {
           websites to AI chatbots. Take a look at my projects and skills!
         </motion.p>
 
-        <motion.p
+        <motion.div
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          className="py-2 button-primary flex justify-center items-center text-white cursor-pointer rounded-lg h-14 md:h-auto flex-grow w-full md:max-w-[200px]"
         >
           <a href="#skills">Learn More!</a>
-        </motion.p>
+        </motion.div>
       </div>
 
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center"
+        className="hidden md:block w-full h-full flex justify-center items-center"
       >
         <Image
           src="/mainIconsdark.svg"
