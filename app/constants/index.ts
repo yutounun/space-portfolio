@@ -424,7 +424,7 @@ export const Projects_data = [
     src: "/carpenter.jpg",
     link: "https://andrew-ichihara.vercel.app/",
     types: ["website"],
-    skills: ["Node.js", "MUI", "MongoDB", "React", "Next.js", "TypeScript"],
+    skills: ["SquareSpace"],
   },
   {
     title: "AI generated Video Sharing Service",
@@ -450,7 +450,7 @@ export const Projects_data = [
     src: "/nativeapp.jpg",
     link: "https://andrew-ichihara.vercel.app/",
     types: ["webservice"],
-    skills: ["Next js", "Tailwind Css", "Framer Motion", "Three js"],
+    skills: ["Vue", "TypeScript", "Vuetify", "Vuex", "Nuxt"],
   },
   {
     title: "Coffices - Figma design",
