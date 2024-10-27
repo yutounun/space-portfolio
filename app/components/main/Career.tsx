@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { slideInFromLeft, slideInFromTop } from "@/app/utils/motion";
+import { slideInFromLeft } from "@/app/utils/motion";
 import Image from "next/image";
 import { useInView } from "react-intersection-observer";
 import { career } from "@/app/constants";
