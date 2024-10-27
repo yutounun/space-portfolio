@@ -17,14 +17,9 @@ const Career = () => {
       className="flex flex-col items-center justify-center min-h-[60vh] md:min-h-screen w-full h-full px-10 md:px-40"
       ref={ref}
     >
-      <div className="w-auto h-auto top-0 z-[5]">
-        <motion.div
-          variants={slideInFromTop}
-          className="text-[40px] font-medium text-center text-gray-200"
-        >
-          Experience
-        </motion.div>
-      </div>
+      <h2 className="text-3xl md:text-5xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 md:py-5">
+        Experience
+      </h2>
 
       <div className="flex flex-col gap-10 w-auto h-auto z-[20] text-gray-200 mt-10 md:mt-20">
         {career.map((c, idx) => (
@@ -37,7 +32,7 @@ const Career = () => {
             className="flex flex-col md:flex-row gap-10 justify-center"
           >
             {/* {inView && <h1>inview</h1>} */}
-            <div className="col-3">
+            <div className="col-3 size-10 md:size-20 hidden md:block">
               <Image
                 src={c.srcImg}
                 alt="Career"
@@ -49,10 +44,14 @@ const Career = () => {
 
             <div className="career-container flex flex-col">
               <h3 className="font-bold text-xl">{c.title}</h3>
-              <p>{c.year}</p>
-              {c.description.map((d) => (
-                <p key={d}>{d}</p>
-              ))}
+              <p className="mb-3">{c.year}</p>
+              <ul>
+                {c.description.map((d) => (
+                  <li className="text-gray-300" key={d}>
+                    {d}
+                  </li>
+                ))}
+              </ul>
             </div>
           </motion.div>
         ))}

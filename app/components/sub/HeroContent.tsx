@@ -14,7 +14,7 @@ function HeroContent() {
       animate="visible"
       className="flex flex-row items-center justify-center px-8 md:px-12 mt-40 w-full z-[20]"
     >
-      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-center md:text-start">
+      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto">
         <motion.div
           variants={slideInFromTop}
           className="hidden md:flex Welcome-box py-[8px] px-[20px] border border-[#7042f88b] opacity-[0.9]"
@@ -27,22 +27,19 @@ function HeroContent() {
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-6 font-bold text-white max-w-[600px] w-auto h-auto"
         >
-          <span>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+          <div>
+            <p className="leading-10 md:leading-normal text-transparent text-5xl md:text-6xl bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               Andrew Ichihara
-            </span>{" "}
-            <br />
-            <span className="text-[1.7rem] md:text-[2.5rem]">
-              Fullstack Engineer
-            </span>
-          </span>
+            </p>
+            <p className="mt-2 text-xl md:text-4xl">Fullstack Engineer</p>
+          </div>
         </motion.div>
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-sm md:text-lg text-gray-400 my-5 max-w-[600px] text-start"
         >
           I am Andrew, a skilled Web developer with a strong focus on Frontend
           development, while also having expertise in Backend. With over 4 years
@@ -52,7 +49,7 @@ function HeroContent() {
 
         <motion.div
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary flex justify-center items-center text-white cursor-pointer rounded-lg h-14 md:h-auto flex-grow w-full md:max-w-[200px]"
+          className="py-2 button-primary flex justify-center items-center text-white cursor-pointer rounded-lg h-12 md:h-auto flex-grow w-full md:max-w-[200px]"
         >
           <a href="#skills">Learn More!</a>
         </motion.div>

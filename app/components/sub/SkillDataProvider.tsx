@@ -23,6 +23,7 @@ const SkillDataProvider = ({ src, width, height, index }: Props) => {
   };
 
   const animationDelay = 0.3;
+
   return (
     <motion.div
       ref={ref}
@@ -31,6 +32,7 @@ const SkillDataProvider = ({ src, width, height, index }: Props) => {
       animate={inView ? "visible" : "hidden"}
       custom={index}
       transition={{ delay: index * animationDelay }}
+      className="size-16 md:size-20"
     >
       <Image src={src} width={width} height={height} alt="skill image" />
     </motion.div>

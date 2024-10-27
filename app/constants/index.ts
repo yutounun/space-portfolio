@@ -368,84 +368,159 @@ export const skill_on_mobile = [
 export const Projects_data = [
   {
     title: "Coffices",
-    description:
+    descriptions: [
       "Coffices.co is a service dedicated to helping you find cafés perfect for getting work done.We’ll be expanding to cover Vancouver soon!",
+    ],
     src: "/coffices.png",
     link: "https://coffices-co.vercel.app/",
+    types: ["webservice"],
+    skills: ["Node.js", "MUI", "MongoDB", "React", "Next.js", "TypeScript"],
   },
   {
     title: "LE GOÛTER - ecommerce with Square",
-    description:
+    descriptions: [
       "Developed an e-commerce site for a bakery using Square, collaborating on research, requirements, and design. - Enhanced client satisfaction by creating detailed Notion guides, enabling them to manage product updates independently.",
-    src: "/ecommerce.png",
+    ],
+    src: "/le.jpg",
     link: "https://le-goter-109155.square.site/home",
+    types: ["website"],
+    skills: ["Square", "E-commerce"],
   },
   {
     title: "Micro CMS Blog",
-    description:
+    descriptions: [
       "a high-performance blog site built using microCMS, a headless CMS, Shadcn UI, and Next.js with SSG (Static Site Generation).",
-    src: "/headless-cms.png",
+    ],
+    src: "/blog.jpg",
     link: "https://andreww-blog.vercel.app/",
+    types: ["website"],
+    skills: [
+      "Next js",
+      "Tailwind CSS",
+      "Micro CMS",
+      "CMS",
+      "Headless CMS",
+      "shadcn/ui",
+    ],
   },
   {
     title: "Next Website3",
-    description:
-      "I built this portfolio site using Next.js, Framer Motion, and Three.js. The animations and 3D effects are pretty cool, right?",
+    descriptions: [
+      "A portfolio site using Next.js, Framer Motion, and Three.js. The animations and 3D effects are pretty cool, right?",
+    ],
     src: "/portfolio.png",
     link: "https://andrew-ichihara.vercel.app/",
+    types: ["website"],
+    skills: ["Next js", "Tailwind Css", "Framer Motion", "Three js"],
+  },
+  {
+    title: "Carpenter's Portfolio",
+    descriptions: [
+      "Requirement gathering",
+      "UX Design",
+      "UI Design",
+      "Create website with Squarespace",
+    ],
+    src: "/carpenter.jpg",
+    link: "https://andrew-ichihara.vercel.app/",
+    types: ["website"],
+    skills: ["Node.js", "MUI", "MongoDB", "React", "Next.js", "TypeScript"],
+  },
+  {
+    title: "AI generated Video Sharing Service",
+    descriptions: [
+      "Upload videos with title, thumbnail, prompt used for generating",
+      "List videos a user bookmarked",
+      "List videos a user posted",
+      "List all videos",
+      "List latest videos",
+    ],
+    src: "/aichat.jpg",
+    link: "https://andrew-ichihara.vercel.app/",
+    types: ["webservice"],
+    skills: ["React Native", "Tailwind CSS", "AppWrite"],
+  },
+  {
+    title: "AI Room Reservation Function",
+    descriptions: [
+      "Delivered the front-end for an AI chatbot managing meeting room reservations, improving user engagement by enhancing the UX based on direct feedback from product managers and designers.",
+      "Increased team efficiency by JSDoc comments, promoting team-wide adoption, and fostering code clarity.",
+      "Resolved critical frontend issues through code reviews, ensuring the timely delivery of high-quality features.",
+    ],
+    src: "/nativeapp.jpg",
+    link: "https://andrew-ichihara.vercel.app/",
+    types: ["webservice"],
+    skills: ["Next js", "Tailwind Css", "Framer Motion", "Three js"],
+  },
+  {
+    title: "Coffices - Figma design",
+    descriptions: [
+      "Creating a mood board",
+      "Creating a wireframe",
+      "Creating components",
+      "Creating a mockup",
+      "Adding interactivity",
+      "Refining based on user reviews",
+    ],
+    src: "/coffices-figma.jpg",
+    link: "https://coffices-co.vercel.app/",
+    types: ["design"],
+    skills: ["figma", "UX design", "UI design"],
   },
 ];
 
 export const career = [
   {
-    title: "LE GOÛTER in Vancouver - Ecommerce Web developer",
-    year: "2024.09 -",
+    title: "SOZO Intuition - Software Engineer in Vancouver",
+    year: "2024.10 -",
     description: [
-      "- Developed an e-commerce site for a bakery using Square, collaborating on research, requirements, and design. Enhanced client satisfaction by creating detailed Notion guides, enabling them to manage product updates independently.",
+      "・I developed a real-time chat application from almost scratch. Designed the UI using Figma. ",
+      "・Currently implementing the frontend for both web and native applications using React, TailwindCSS, and React Native.",
+      "・Due to the small team size, I proactively proposed better implementation methods, site maps, and design improvements to enhance the overall quality of the product.",
     ],
-    srcImg: "/css.png",
+    srcImg: "/building.svg",
   },
   {
     title: "Acall.inc - Freelance frontend developer",
     year: "2024.04 - 2024.08",
     description: [
-      "- Delivered the front-end for an AI chatbot managing meeting room reservations, improving user engagement and satisfaction by enhancing the UX based on direct feedback from product managers and designers.",
-      "- Increased team efficiency by adding JSDoc comments, promoting team-wide adoption, and fostering code clarity.",
-      "- Resolved critical frontend issues through code reviews, reducing ensuring the timely delivery of high-quality features.",
+      "・Delivered the front-end for an AI chatbot managing meeting room reservations, improving user engagement and satisfaction by enhancing the UX based on direct feedback from product managers and designers.",
+      "・Increased team efficiency by adding JSDoc comments, promoting team-wide adoption, and fostering code clarity.",
+      "・Resolved critical frontend issues through code reviews, reducing ensuring the timely delivery of high-quality features.",
       "Tech: TypeScript, Vue, Nuxt.js, HTML, CSS, Vuetify, Sass, GraphQL, Apollo, CI/CD, Github, Figma, Agile",
     ],
-    srcImg: "/python.png",
+    srcImg: "/building.svg",
   },
   {
     title: "Iret.inc - Frontend, Fullstack Engineer / Project Manager",
     year: "2022.08 - 2024.03",
     description: [
-      "- Led frontend development for large-scale enterprise systems, often making the fundamental decisions. Collaborated closely with designers and infrastructure teams using TypeScript, React, and Vue to ensure project success.",
-      "- Took the initiative to self-learn technologies like TailwindCSS, React, Jest, and MongoDB when needed for the project, sharing knowledge with the team and ensuring smooth project progress.",
-      "- Managed a team of 4 developers, overseeing project management and code reviews while coordinating with clients.",
-      "- Spearheaded the migration of a web app from Vue2 to Vue3, providing regular progress updates to reassure the client. ",
+      "・Led frontend development for large-scale enterprise systems, often making the fundamental decisions. Collaborated closely with designers and infrastructure teams using TypeScript, React, and Vue to ensure project success.",
+      "・Took the initiative to self-learn technologies like TailwindCSS, React, Jest, and MongoDB when needed for the project, sharing knowledge with the team and ensuring smooth project progress.",
+      "・Managed a team of 4 developers, overseeing project management and code reviews while coordinating with clients.",
+      "・Spearheaded the migration of a web app from Vue2 to Vue3, providing regular progress updates to reassure the client. ",
       "Tech: React, TypeScript, Tailwind, MongoDB, Python, Jest, DynamoDB, Vue, AWS, Vuetify, LangChain, Nuxt, Agile",
     ],
-    srcImg: "/reactquery.png",
+    srcImg: "/building.svg",
   },
   {
     title: "Arara.inc - Software Engineer",
     year: "2020.07 - 2022.07",
     description: [
-      "- Developed front-end UI features, issues with JavaScript, Vue2 and Vuetify with designers and other developers.",
-      "- Automated testing for a payment card API, initially leveraging PostMan, then transitioning to Shell Script to eliminate environmental discrepancies, achieving a 99% reduction in testing time.",
+      "・Developed front-end UI features, issues with JavaScript, Vue2 and Vuetify with designers and other developers.",
+      "・Automated testing for a payment card API, initially leveraging PostMan, then transitioning to Shell Script to eliminate environmental discrepancies, achieving a 99% reduction in testing time.",
       "Tech: AWS Services, TypeScript, Vue, Vuetify, Shell Script, Python, Django, DynamoDB, PostgreSQL",
     ],
-    srcImg: "/go.png",
+    srcImg: "/building.svg",
   },
 
   {
     title: "RuDoLf Inc. - CMS Developer",
     year: "Apr 2020 - Jun 2020",
     description: [
-      "- Implemented customer websites using WordPress, focusing on SEO optimization and custom plugin development to enhance functionality and user experience. (https://knowledgeco.jp/home/happy-eng/)",
+      "・Implemented customer websites using WordPress, focusing on SEO optimization and custom plugin development to enhance functionality and user experience. (https://knowledgeco.jp/home/happy-eng/)",
       "Tech: CMS, Wordpress, PHP, LAMP",
     ],
-    srcImg: "/fastapi.png",
+    srcImg: "/building.svg",
   },
 ];
