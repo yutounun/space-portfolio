@@ -55,8 +55,9 @@ const Contact = () => {
           Contact
         </h2>
         <p className="text-gray-300 mb-6">
-          Feel free to reach out with just a "Hey!👋". If it's work-related,
-          using the template can make filling out the form a breeze!
+          Feel free to reach out with just a &quot;Hey!👋&quot;. If it&apos;s
+          work-related, using the template can make filling out the form a
+          breeze!
         </p>
         <form ref={form} onSubmit={sendEmail} className="space-y-4">
           <div className="flex flex-col">
