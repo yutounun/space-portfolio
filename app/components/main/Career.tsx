@@ -17,11 +17,11 @@ const Career = () => {
       className="flex flex-col items-center justify-center min-h-[60vh] md:min-h-screen w-full h-full px-10 md:px-40"
       ref={ref}
     >
-      <h2 className="text-3xl md:text-5xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 md:py-5">
+      <h2 className="text-3xl md:text-5xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
         Experience
       </h2>
 
-      <div className="flex flex-col gap-10 w-auto h-auto z-[20] text-gray-200 mt-10 md:mt-20">
+      <div className="flex flex-col gap-12 md:gap-10 w-auto h-auto z-[20] text-gray-200 mt-10">
         {career.map((c, idx) => (
           <motion.div
             key={c.title}
@@ -47,7 +47,7 @@ const Career = () => {
               <p className="mb-3">{c.year}</p>
               <ul>
                 {c.description.map((d) => (
-                  <li className="text-gray-300" key={d}>
+                  <li className="text-gray-400 text-base" key={d}>
                     {d}
                   </li>
                 ))}

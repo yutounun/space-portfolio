@@ -35,7 +35,7 @@ const ProjectCard = ({ src, title, descriptions, link, skills }: Props) => {
         <h1 className="text-2xl font-semibold text-white">{title}</h1>
         <p className="mt-2 text-gray-300">👨‍💻 {skills.join(",")}</p>
         {descriptions.map((d) => (
-          <p className="mt-2 text-gray-300" key={d}>
+          <p className="mt-2 text-gray-400 text-base" key={d}>
             ・{d}
           </p>
         ))}

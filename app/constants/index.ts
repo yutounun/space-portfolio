@@ -427,13 +427,11 @@ export const Projects_data = [
     skills: ["SquareSpace"],
   },
   {
-    title: "AI generated Video Sharing Service",
+    title: "AI Chatbot with a client",
     descriptions: [
-      "Upload videos with title, thumbnail, prompt used for generating",
-      "List videos a user bookmarked",
-      "List videos a user posted",
-      "List all videos",
-      "List latest videos",
+      "Delivered the front-end for an AI chatbot managing meeting room reservations, improving user engagement by enhancing the UX based on direct feedback from product managers and designers.",
+      "Increased team efficiency by JSDoc comments, promoting team-wide adoption, and fostering code clarity.",
+      "Resolved critical frontend issues through code reviews, ensuring the timely delivery of high-quality features.",
     ],
     src: "/aichat.jpg",
     link: "https://andrew-ichihara.vercel.app/",

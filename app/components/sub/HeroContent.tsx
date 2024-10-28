@@ -12,9 +12,9 @@ function HeroContent() {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-8 md:px-12 mt-40 w-full z-[20]"
+      className="flex flex-row items-center justify-center px-8 md:px-12 mt-40 md:mt-40 w-full z-[20]"
     >
-      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto">
+      <div className=" w-full flex flex-col gap-5 justify-center m-auto">
         <motion.div
           variants={slideInFromTop}
           className="hidden md:flex Welcome-box py-[8px] px-[20px] border border-[#7042f88b] opacity-[0.9]"
@@ -39,7 +39,7 @@ function HeroContent() {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-sm md:text-lg text-gray-400 my-5 max-w-[600px] text-start"
+          className="text-base md:text-lg text-gray-400 my-5 max-w-[600px] text-start"
         >
           I am Andrew, a skilled Web developer with a strong focus on Frontend
           development, while also having expertise in Backend. With over 4 years
@@ -51,7 +51,7 @@ function HeroContent() {
           variants={slideInFromLeft(1)}
           className="py-2 button-primary flex justify-center items-center text-white cursor-pointer rounded-lg h-12 md:h-auto flex-grow w-full md:max-w-[200px]"
         >
-          <a href="#skills">Learn More!</a>
+          <a href="#contact">Talk with me 👋</a>
         </motion.div>
       </div>
 

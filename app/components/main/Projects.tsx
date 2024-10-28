@@ -9,11 +9,11 @@ const Projects = () => {
 
   return (
     <div
-      className="flex flex-col items-center justify-center pb-40 md:py-20"
+      className="flex flex-col items-center justify-center md:pb-0"
       id="projects"
     >
       <h2 className="text-3xl md:text-5xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 md:py-5">
-        My Projects
+        Projects
       </h2>
       <div className="mx-auto w-1/2 h-40 md:h-20 flex flex-col md:flex-row items-center justify-center gap-2 md:gap-8 mb-6 md:mb-5">
         <button
