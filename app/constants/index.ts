@@ -404,11 +404,11 @@ export const Projects_data = [
     ],
   },
   {
-    title: "Next Website3",
+    title: "Next and three.js Animation Portfolio",
     descriptions: [
       "A portfolio site using Next.js, Framer Motion, and Three.js. The animations and 3D effects are pretty cool, right?",
     ],
-    src: "/portfolio.png",
+    src: "/space-portfolio.png",
     link: "https://andrew-ichihara.vercel.app/",
     types: ["website"],
     skills: ["Next js", "Tailwind Css", "Framer Motion", "Three js"],
